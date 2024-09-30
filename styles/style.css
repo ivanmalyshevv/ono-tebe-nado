@@ -50,26 +50,32 @@
   object-fit: contain;
 }
 
-.header_address {
-  justify-self: end;
-  padding-right: 61px;
-  font-size: 18px;
+.address {
   font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
   line-height: 135%;
-  white-space: nowrap;
+  margin-left: 30px;
 }
+
+.header_address {
+  font-style: normal;
+  white-space: nowrap;
+  margin-left: 187px;
+}
+
 .cover {
   position: relative;
   padding: 170px 50px 50px;
   background-image: url(../images/cover.jpg);
   background-position: center;
   background-size: cover;
-  height: 757px;
+  min-height: 757px;
 }
 
 .overlay {
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   inset: 0;
 }
 
@@ -133,6 +139,7 @@
   font-size: 22px;
   text-transform: uppercase;
   background-color: transparent;
+  font-family: Raleway, Arial, sans-serif;
 }
 
 .lots {
@@ -147,7 +154,7 @@
 
 .lots__card-list {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 25px;
   list-style-type: none;
 }
@@ -155,7 +162,7 @@
 .lots__card-list-item {
   flex-grow: 1;
   width: 334px;
-  height: 563px;
+  min-height: 563px;
 }
 
 .card-link {
@@ -212,7 +219,7 @@
 }
 
 .about {
-  padding: 0px 24px 89px 24px;
+  padding: 0px 24px 65px 24px;
 }
 
 .about__column {
@@ -242,9 +249,10 @@
 
 .about__text {
   grid-column: 2 / 4;
-  margin-left: 9px;
+  margin-left: 8px;
   font-size: 20.1px;
   line-height: 24px;
+  padding: 0 1px 12px 0px;
 }
 
 .footer {
