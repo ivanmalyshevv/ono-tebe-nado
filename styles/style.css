@@ -7,56 +7,56 @@
   }
 
 .header__menu { 
-    padding-left: 26.52px;
+  padding-left: 26.52px;
   }
 
 .header__links-list {
-    display: flex;
-    column-gap: 32px;
-    font-style: normal;
-    list-style: circle;
+  display: flex;
+  column-gap: 32px;
+  font-style: normal;
+  list-style: circle;
   }
 
 .header__link {
-    text-decoration-thickness: 1px;
-    text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
   }
 
   .header__links-list-item_no-bullit {
-    list-style-type: none;
-    font-weight: 400;
-    font-size: 18px;
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 18px;
   }
 
 .header__link_active {
-    text-decoration: none;
-    pointer-events: none;
+  text-decoration: none;
+  pointer-events: none;
   }
 
   .header__links-list-item {
-    font-weight: 400;
-    font-size: 18px;
+  font-weight: 400;
+  font-size: 18px;
   }
 
 .header__logo {
-    display: flex;
-    justify-self: center;
-    width: 148px;
-    height: 105px;
-    margin-bottom: 2px;
+  display: flex;
+  justify-self: center;
+  width: 148px;
+  height: 105px;
+  margin-bottom: 2px;
   }
 
 .header__logo-image {
-    object-fit: contain;
+  object-fit: contain;
   }
 
 .header_address {
-    justify-self: end;
-    padding-right: 61px;
-    font-size: 18px;
-    font-style: normal;
-    line-height: 135%;
-    white-space: nowrap;
+  justify-self: end;
+  padding-right: 61px;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 135%;
+  white-space: nowrap;
   
   }
 .cover {
@@ -76,15 +76,15 @@
 }
 
 .cover__title {
- display: flex;
- flex-direction: column;
- row-gap: 24px;
- margin-bottom: 135px;
- color: #fff;
- font-size: 100px;
- letter-spacing: 0.33em;
- text-transform: uppercase;
- position: relative;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  margin-bottom: 135px;
+  color: #fff;
+  font-size: 100px;
+  letter-spacing: 0.33em;
+  text-transform: uppercase;
+  position: relative;
 }
 
 .align-text {
@@ -148,10 +148,10 @@
 }
 
 .lots__card-list {
- display: flex;
- flex-wrap: nowrap;
- gap: 25px;
- list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 25px;
+  list-style-type: none;
 }
 
 .lots__card-list-item {
