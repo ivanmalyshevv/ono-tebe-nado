@@ -12,7 +12,7 @@
 
 .header__links-list {
   display: flex;
-  column-gap: 32px;
+  column-gap: 34px;
   font-style: normal;
   list-style: circle;
 }
@@ -55,13 +55,21 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 135%;
-  margin-left: 30px;
+  margin-left: 31px;
 }
 
 .header_address {
   font-style: normal;
   white-space: nowrap;
   margin-left: 187px;
+  margin-top: 4px;
+}
+
+.address__link {
+  font-style: normal;
+  white-space: nowrap;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
 
 .cover {
